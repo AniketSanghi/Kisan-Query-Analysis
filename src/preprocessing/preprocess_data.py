@@ -41,9 +41,11 @@ def is_outlier(query):
 def format_data(query):
     query = query.replace('\n', ' ').replace('\t', ' ')
     query = ' '.join(query.split())
-    query = '?'.join(query.split('?'))
-    query = '.'.join(query.split('.'))
+    query = re.sub('\.+', '.', query)
+    query = re.sub('\?+', '?', query)
     query = query.lstrip().rstrip()
+    if query.isnumeric():
+        query = "NA"
     return query
 
 def format_data_list(data_list):
