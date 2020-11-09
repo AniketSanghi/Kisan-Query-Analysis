@@ -38,12 +38,21 @@ def is_outlier(query):
     return re.search(r"\b" + outlier_key + r"\b", query, re.IGNORECASE)
 
 # Format text to improve readability and detection
-def format_data(query):
-    query = query.replace('\n', ' ').replace('\t', ' ')
+def format_blanks(query):
+    query = query.replace('\b', ' ').lstrip().rstrip()
     query = ' '.join(query.split())
-    query = re.sub('\.+', '.', query)
-    query = re.sub('\?+', '?', query)
-    query = query.lstrip().rstrip()
+    return query
+
+def format_weird_patterns(query):
+    if ".." in query:
+        query = re.sub('\.+', '.', query)
+    if "??" in query:
+        query = re.sub('\?+', '?', query)
+    return query
+
+def format_data(query):
+    query = format_blanks(query)
+    query = format_weird_patterns(query)
     if query.isnumeric():
         query = "NA"
     return query
@@ -100,6 +109,9 @@ for i in range(0, len(listdir("../data/dataset"))):
                     if is_duplicate_dataset(year, month, state, district):
                         number_of_dataset_duplications += 1
                         break
+
+                # Format query
+                query = format_data(query)
                 
                 # Remove all outliers
                 if is_outlier(query):
@@ -107,8 +119,7 @@ for i in range(0, len(listdir("../data/dataset"))):
                     continue
 
                 # Don't consider queries too large in size
-                query = format_data(query)
-                if len(query) > 150:
+                if len(query) > 150 or query == "NA":
                     continue
                 
                 # Remove all duplicate data rows
