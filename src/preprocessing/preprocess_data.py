@@ -34,8 +34,22 @@ def is_duplicate_data(line, prev_line, time, prev_time):
 # and many others were present. We found that one of the common substring
 # for all those queries was "Call". Using it to remove outliers.
 outlier_key = "call"
+# Remove all outliers
 def is_outlier(query):
-    return re.search(r"\b" + outlier_key + r"\b", query, re.IGNORECASE)
+    # Don't consider queries too large in size or null queries
+    if len(query) > 150 or query == "na" or len(query) == 0:
+        return True
+
+    # Removing all "call" type outliers
+    if re.search(r"\b" + outlier_key + r"\b", query, re.IGNORECASE):
+        return True
+
+    # Remove queries filled with just non-alphabets
+    # Has no logical meaning
+    cnt = sum(ch.isalpha() for ch in query)
+    if cnt / len(query) < 0.6:
+        return True
+    return False
 
 # Format text to improve readability and detection
 def format_blanks(query):
@@ -58,9 +72,8 @@ def format_data(query):
     return query
 
 def format_data_list(data_list):
-    for i in range(0, len(data_list)):
+    for i in range(0, len(data_list)-1):
         data_list[i] = format_data(data_list[i])
-    data_list[-1] = data_list[-1].lower()
     return data_list
 
 # Adds data element to the Data JSON
@@ -112,14 +125,11 @@ for i in range(0, len(listdir("../data/dataset"))):
 
                 # Format query
                 query = format_data(query)
+                query = query.lower()
                 
                 # Remove all outliers
                 if is_outlier(query):
                     number_of_outliers += 1
-                    continue
-
-                # Don't consider queries too large in size
-                if len(query) > 150 or query == "NA":
                     continue
                 
                 # Remove all duplicate data rows
