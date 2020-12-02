@@ -1,0 +1,4 @@
+# Ignore these data files
+data/dataset
+data/dataset.zip
+data/data.json

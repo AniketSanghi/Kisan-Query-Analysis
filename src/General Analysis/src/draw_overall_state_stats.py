@@ -7,7 +7,7 @@ import numpy as np
 # pip3 install psutil
 # pip install -U kaleido
 
-with open('../library/states_india.geojson', 'r') as file:
+with open('../../library/states_india.geojson', 'r') as file:
 	states_geojson = json.load(file)
 
 geojson_state_code_map = {}

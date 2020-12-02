@@ -6,6 +6,7 @@ with open('../../data/data.json') as file:
 
 year_month_frequency = {}
 state_frequency = {}
+district_frequency = {}
 for year, months in data.items():
 	for month, states in months.items():
 		for state, districts in states.items():
@@ -22,6 +23,11 @@ for year, months in data.items():
 					else:
 						state_frequency[state] = 1
 
+					if district in district_frequency.keys():
+						district_frequency[district] += 1
+					else:
+						district_frequency[district] = 1
+
 
 with open('../library/overall_month_frequency.csv', 'w', newline='') as file:
 	writer = csv.writer(file)
@@ -32,5 +38,11 @@ with open('../library/overall_month_frequency.csv', 'w', newline='') as file:
 with open('../library/overall_state_frequency.csv', 'w', newline='') as file:
 	writer = csv.writer(file)
 	writer.writerow(["State", "Frequency"])
-	for state, freq in state_frequency.items():
+	for state, freq in sorted(state_frequency.items(), key=lambda x: x[1], reverse=True):
 		writer.writerow([state, freq])
+
+with open('../library/overall_district_frequency.csv', 'w', newline='') as file:
+	writer = csv.writer(file)
+	writer.writerow(["District", "Frequency"])
+	for district, freq in sorted(district_frequency.items(), key=lambda x: x[1], reverse=True):
+		writer.writerow([district, freq])
