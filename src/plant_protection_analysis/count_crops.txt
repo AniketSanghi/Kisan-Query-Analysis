@@ -1,0 +1,272 @@
+ARUM 113
+Acid Lime 1726
+African Sarson 3
+Almond 207
+Aloe Vera 256
+Amaranthus/Grain Amaranthus 681
+Amarphophallus (Surankand/Elephant Foot Yam) 190
+Anjan Grass 25
+Anthurium 33
+Aonla 1200
+Apple 23367
+Apricot 115
+Arecanut 1367
+Ash Gourd (Petha) 623
+Avacado 46
+BAJRA NAPIER HYBRID 318
+Babool 110
+Baby Corn 18
+Bail 1107
+Banana 8672
+Barley (Jau) 1021
+Barnyard Millet (Kundiraivlli/Sawan 52
+Barseem 2419
+Bay Leaf 30
+Beans 3079
+Beekeeping 66
+Beet Root (Garden Beet/Stock Beet) 193
+Bell Pepper 43
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana) 35742
+Ber 2180
+Betel Vine 1225
+Bhang (Hemp, Canabis) 14
+Bhindi(Okra/Ladysfinger) 18907
+Birdwood Grass 2
+Bishops Weed 108
+Bitter Gourd 9864
+Black Gram (urd bean) 8749
+Bottle Gourd 11230
+Bovine(Cow,Buffalo) 5
+Brinjal 38441
+Broad Bean 312
+Broccoli 141
+Brown Sarson 418
+Brussils Sprouts 16
+Buck Wheat (Kaspat) 34
+Buffel Grass (Anjan Grass) 9
+Bush Squash 28
+Butter Pea (Vegetable) 96
+Cabbage 2865
+Caleus 95
+Capsicum 3124
+Cardamom 185
+Carnation 46
+Carrot 851
+Cashew 663
+Castor (Rehri, Rendi, Arandi) 4588
+Cauliflower 7346
+Celery 41
+Chapan Kaddu 185
+Chestnut 141
+Chillies 47524
+China Astor 54
+Chinar Tree 39
+Chinese Cabbage 21
+Chrysanthemum 689
+Cinnamon 24
+Citrus 10528
+Clove 45
+Cluster Bean 1268
+Cocoa 65
+Coconut 7882
+Coffee 37
+Colocasia (Arvi, Arbi) 946
+Common Millet (Panivaragu/Chena/Proso Millet/Hogm 28
+Coriander 5403
+Cotton (Kapas) 91322
+Cowpea (Vegetable) 4259
+Crossandra 254
+Cucumber 10725
+Cumin 25238
+Curry Leaf 217
+Custard Apple 373
+Cymbidium 26
+DatePalm 91
+Dhaincha 187
+Dharaf Grass 8
+Dill Seed 100
+Dinanath Grass 8
+Dolichos Bean 530
+Drum Stick 2189
+Eculeptous 217
+Faba Bean (Horse Bean/windsor Bean) 166
+Fennel 1342
+Fenugreek 1318
+Fig 142
+FingerMillet (Ragi/Mandika) 306
+French Bean 842
+Garden Pea 133
+Garlic 9141
+Gerbera 59
+Ginger 3778
+Gladiolus 179
+Gobhi Sarson 5
+Golden Thimothy 19
+Grape 1022
+Greater Yam 18
+Green Gram (Moong Bean/ Moong) 13523
+Groundnut (pea nut/mung phalli) 30932
+Guar 5575
+Guava 8312
+Guinea Grass 26
+Hazlenut 20
+Hibiscus (Gurhal) 447
+Honey plant 15
+Horse Gram (kulthi/kultha) 144
+Indian Bean (Vegetable) 165
+Indian Clover (Senji Sweet Clover) 38
+Indian Squash (Tinda/Round Melon) 650
+Indian rapeseed and mustard (yellow sarson) 352
+Italian Millet (Thenai/Navane/Foxtail Millet/Kang) 57
+Ivy Gourd 441
+Jack Fruit 3469
+Jamun 564
+Jasmine 1925
+Jatropha (Ratanjot) 15
+Jojoba 2
+Jute 398
+Kaner 28
+Karan Rai 24
+Khesari (chickling vetch/ grass pea) 107
+Kiwi Fruit 86
+Knol-Khol 175
+Kodo Millet (Kodara/Varagu) 25
+Kokum 14
+Kolanchi(Tephrosia Purpurea) 7
+Koronda 37
+Kundru 61
+Lab Lab 1074
+Lahsoda 129
+Large Cardamom 13
+Leafy Vegetable 589
+Lehberry 8
+Lemon 5561
+Lentil (Masur) 3801
+Lesser Yam (Rafula) 12
+Lethyrus 91
+Lettuce 17
+Lilliums 100
+Linseed (alsi) 159
+Litchi 880
+Little Millet (Samai/Kutki/kodo-kutki) 88
+Long Melon 251
+Loquat 26
+Lucerne (Alfalfa) 854
+Maize (Makka) 28072
+Mango 27362
+Marigold 3411
+Marvel Grass 15
+Melon 717
+Mentha 4174
+Mesta 1
+Methi (Fenugreek) 492
+Mint 235
+Mochai (lab-lab) 134
+Mosambi 1239
+Moth Bean (kidney bean/ deww gram) 1950
+Mulberry 85
+Mushroom 551
+Musk Melon 1114
+Mustard 14361
+NA 5447
+Napier Grass 84
+Neem 493
+Niger (Ramtil) 15
+Nutmeg 156
+OPIUM POPY 1141
+Oats 290
+Oil palm 69
+Olive 8
+Onion 28656
+Orange 2825
+Other 260
+Others 31478
+Paddy (Dhan) 196387
+Palmyra 29
+Papaya 7997
+Passion Fruit 68
+Pea (Vegetable) 7927
+Peach 416
+Pear 250
+Pearl Millet (Bajra/Bulrush Millet/Spiked Millet) 7139
+Peas (field peas/ garden peas/matar) 914
+Pecan nut 14
+Pepper 364
+Periwinkle 96
+Persimmon 33
+Pigeon pea (red gram/arhar/tur) 10933
+Pineapple 38
+Plum 326
+Pointed Gourd 4619
+Pomegranate 6384
+Poplar 310
+Potato 24046
+Pumpkin 4661
+Radish 2267
+Rajma (french bean) 186
+Rajmash Bean 94
+Raya (Indian Mustard) 349
+Ribbed Gourd (Kali Tori) 1171
+Ricebean 1
+Ridge Gourd 3867
+Rocket salad (taramira) 250
+Rose 1818
+Roselle (Mesta) 9
+Rubber 62
+Runner Bean 25
+Ryegrass 8
+Safed Musli 193
+Safflower (kusum/kardi) 163
+Saffron 71
+Sagoan 347
+Sal Wood 65
+Sandal Wood 134
+Sapota 669
+Satawar 178
+Sesame (Gingelly/Til)/Sesamum 6334
+Setaria Grass 3
+Smooth Guard 60
+Snake Gourd 512
+Snap Melon 32
+Sorghum (Jowar/Great Millet) 4780
+Soybean (bhat) 20533
+Spinach (Palak) 728
+Spine Gourd 315
+Sponge Gourd 1351
+Stevia 95
+Strawberry 118
+Sudan Grass 37
+Sugar Beet 79
+Sugarcane (Noble Cane) 23740
+Summer Squash (Vegetable Marrow) 173
+Sunflower (suryamukhi) 415
+Sunnhemp (Patua) 15
+Sweet Cherry 35
+Sweet Potato 266
+Tall Fescue Grass 1
+Tapioca (Cassava) 466
+Tea 97
+Teak 277
+Tobacco 842
+Tomato 35565
+Toria 162
+Triticale 239
+Tuberose 699
+Tulsi 297
+Tumba 73
+Turmeric 4984
+Turnip (Saljam) 62
+Vanilla 17
+Walnut 125
+Watermelon 4940
+Wheat 55419
+White Clover (Shaftal) 13
+White Yam 126
+Winged Bean 38
+Yard Long Bean 29
+Zentedeschia 14
+fodder maize 1100
+fodder sorghum 1606
+lobia 242
+rajka bajri. 218
+velimasal 3

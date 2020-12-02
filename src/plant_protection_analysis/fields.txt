@@ -1,0 +1,393 @@
+AGRICULTURE
+ANIMAL HUSBANDRY
+FISHERIES
+HORTICULTURE
+_____________
+Animal
+Avian
+Beekeeping
+Cereals
+Condiments and Spices
+Drug and Narcotics
+Fiber Crops
+Flowers
+Fodder Crops
+Fruits
+Green Manure
+Inland
+Marine
+Medicinal and Aromatic Plants
+Millets
+NA
+Oilseeds
+Others
+Plantation Crops
+Pulses
+Sugar and Starch Crops
+Vegetables
+_____________
+ARUM
+Acid Lime
+African Sarson
+Almond
+Aloe Vera
+Amaranthus/Grain Amaranthus
+Amarphophallus (Surankand/Elephant Foot Yam)
+Anjan Grass
+Anthurium
+Aonla
+Apple
+Apricot
+Arecanut
+Ash Gourd (Petha)
+Avacado
+BAJRA NAPIER HYBRID
+Babool
+Baby Corn
+Bail
+Banana
+Barley (Jau)
+Barnyard Millet (Kundiraivlli/Sawan
+Barseem
+Bay Leaf
+Beans
+Beekeeping
+Beet Root (Garden Beet/Stock Beet)
+Bell Pepper
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana)
+Ber
+Betel Vine
+Bhang (Hemp, Canabis)
+Bhindi(Okra/Ladysfinger)
+Birdwood Grass
+Bishops Weed
+Bitter Gourd
+Black Gram (urd bean)
+Bottle Gourd
+Bovine(Cow,Buffalo)
+Brackish
+Brinjal
+Broad Bean
+Broccoli
+Brown Sarson
+Brussils Sprouts
+Buck Wheat (Kaspat)
+Buffel Grass (Anjan Grass)
+Bush Squash
+Butter Pea (Vegetable)
+Cabbage
+Caleus
+Camel
+Capsicum
+Cardamom
+Carnation
+Carrot
+Cashew
+Castor (Rehri, Rendi, Arandi)
+Cat
+Cauliflower
+Celery
+Chapan Kaddu
+Chestnut
+Chillies
+China Astor
+Chinar Tree
+Chinese Cabbage
+Chrysanthemum
+Cinnamon
+Citrus
+Clove
+Cluster Bean
+Cocoa
+Coconut
+Coffee
+Cold Water
+Colocasia (Arvi, Arbi)
+Common Millet (Panivaragu/Chena/Proso Millet/Hogm
+Coriander
+Cotton (Kapas)
+Cowpea (Vegetable)
+Crossandra
+Cucumber
+Cumin
+Curry Leaf
+Custard Apple
+Cymbidium
+DatePalm
+Dhaincha
+Dharaf Grass
+Dill Seed
+Dinanath Grass
+Dog
+Dolichos Bean
+Drum Stick
+Duck
+Eculeptous
+Faba Bean (Horse Bean/windsor Bean)
+Fennel
+Fenugreek
+Fig
+FingerMillet (Ragi/Mandika)
+Flying Duck
+French Bean
+Fresh Water
+Garden Pea
+Garlic
+Gerbera
+Ginger
+Gladiolus
+Goat
+Gobhi Sarson
+Golden Thimothy
+Goose
+Grape
+Greater Yam
+Green Gram (Moong Bean/ Moong)
+Groundnut (pea nut/mung phalli)
+Guar
+Guava
+Guinea Grass
+Guineafowl
+Hazlenut
+Hibiscus (Gurhal)
+Honey plant
+Horse
+Horse Gram (kulthi/kultha)
+Indian Bean (Vegetable)
+Indian Clover (Senji Sweet Clover)
+Indian Squash (Tinda/Round Melon)
+Indian rapeseed and mustard (yellow sarson)
+Italian Millet (Thenai/Navane/Foxtail Millet/Kang)
+Ivy Gourd
+Jack Fruit
+Jamun
+Jasmine
+Jatropha (Ratanjot)
+Jojoba
+Jute
+Kaner
+Karan Rai
+Khesari (chickling vetch/ grass pea)
+Kiwi Fruit
+Knol-Khol
+Kodo Millet (Kodara/Varagu)
+Kokum
+Kolanchi(Tephrosia Purpurea)
+Koronda
+Kundru
+Lab Lab
+Lahsoda
+Large Cardamom
+Leafy Vegetable
+Lehberry
+Lemon
+Lentil (Masur)
+Lesser Yam (Rafula)
+Lethyrus
+Lettuce
+Lilliums
+Linseed (alsi)
+Litchi
+Little Millet (Samai/Kutki/kodo-kutki)
+Long Melon
+Loquat
+Lucerne (Alfalfa)
+Maize (Makka)
+Mango
+Marigold
+Marine
+Marvel Grass
+Melon
+Mentha
+Mesta
+Methi (Fenugreek)
+Mint
+Mochai (lab-lab)
+Mosambi
+Moth Bean (kidney bean/ deww gram)
+Mulberry
+Mushroom
+Musk Melon
+Mustard
+NA
+Napier Grass
+Neem
+Niger (Ramtil)
+Nutmeg
+OPIUM POPY
+Oats
+Oil palm
+Olive
+Onion
+Orange
+Other
+Others
+POULTRY FARM
+Paddy (Dhan)
+Palmyra
+Papaya
+Passion Fruit
+Pea (Vegetable)
+Peach
+Pear
+Pearl Millet (Bajra/Bulrush Millet/Spiked Millet)
+Peas (field peas/ garden peas/matar)
+Pecan nut
+Pepper
+Periwinkle
+Persian Clover
+Persimmon
+Pig
+Pigeon pea (red gram/arhar/tur)
+Pillipesara
+Pineapple
+Plum
+Pointed Gourd
+Pomegranate
+Poplar
+Potato
+Pumpkin
+Rabbit
+Radish
+Rajma (french bean)
+Rajmash Bean
+Raya (Indian Mustard)
+Red Clover
+Ribbed Gourd (Kali Tori)
+Ricebean
+Ridge Gourd
+Rocket salad (taramira)
+Rose
+Roselle (Mesta)
+Rubber
+Runner Bean
+Ryegrass
+Safed Musli
+Safflower (kusum/kardi)
+Saffron
+Sagoan
+Sal Wood
+Sandal Wood
+Sapota
+Satawar
+Sen Grass
+Senji
+Sesame (Gingelly/Til)/Sesamum
+Setaria Grass
+Sheep
+Smooth Guard
+Snake Gourd
+Snap Melon
+Sorghum (Jowar/Great Millet)
+Soybean (bhat)
+Spinach (Palak)
+Spine Gourd
+Sponge Gourd
+Stevia
+Strawberry
+Stylosanthes
+Sudan Grass
+Sugar Beet
+Sugarcane (Noble Cane)
+Summer Squash (Vegetable Marrow)
+Sunflower (suryamukhi)
+Sunnhemp (Patua)
+Sweet Cherry
+Sweet Potato
+Tall Fescue Grass
+Tapioca (Cassava)
+Tea
+Teak
+Teosinte
+Tobacco
+Tomato
+Toria
+Triticale
+Tuberose
+Tulsi
+Tumba
+Turkey
+Turmeric
+Turnip (Saljam)
+Vanilla
+Walnut
+Watermelon
+Wheat
+White Clover (Shaftal)
+White Yam
+Winged Bean
+Yard Long Bean
+Zentedeschia
+fodder maize
+fodder sorghum
+lobia
+rajka bajri.
+velimasal
+white rats
+_____________
+Agriculture Mechanization
+Animal Breeding
+Animal Nutrition
+Animal Production (Piggery, Goatery, Sheep Farming etc.)
+Artificial Insemination
+Beekeeping
+Bio-Pesticides and Bio-Fertilizers
+Breeding and culture of ornamental fish
+Breeding of freshwater prawn
+Cattle shed Planning and Management
+Coastal Aquaculture
+Cold Storage
+Credit
+Crop Insurance
+Cultural Practices
+Dairy Production
+Deep Sea Fishing and Processing
+Disease Management
+Disease Reporting
+Fertilizer Use and Availability
+Field Preparation
+Fish Dressing Drying
+Fish Fingerling Production
+Fish Marketing
+Fishery Mechanization
+Fishery Nutrition
+Fishing Harbours and Landing Centre
+Floriculture
+Freshwater Pearl Farming.
+Freshwater pearl culture
+Government Schemes
+Integrated Farming
+Landscaping
+Livestock Products Processing and Packaging
+Magur Breeding and Culture
+Market Information
+Medicinal and Aromatic Plants
+Mushroom Production
+NA
+Nursery Management
+Nutrient Management
+Old/Senile Orchard Rejuvenation
+Organic Farming
+Plant Protection
+Plasticulture
+Post Harvest Management (Cleaning, Grading, Packaging, Food Processing, Cool Chain etc.)
+Post Harvest Preservation
+Power, Roads etc.
+Seaweed Cultivation
+Seeds
+Seeds and Planting Material
+Soil Health Card
+Soil Testing
+Sowing Time and Weather
+Spices and Condiment Crops
+Storage
+Tank, Pond and Reservoir Management
+Training and Exposure Visits
+Varieties
+Vegetative Propagation and Tissue Culture
+Water Management
+Water Management, Micro Irrigation
+Water Testing for Fish Production
+Weather
+Weed Management
+_____________
