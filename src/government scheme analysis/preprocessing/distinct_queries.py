@@ -1,6 +1,6 @@
 import json
 
-with open('./data.json') as f:
+with open('../data.json') as f:
   data_dict = json.load(f)
 
 
