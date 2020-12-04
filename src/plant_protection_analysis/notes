@@ -1,5 +1,4 @@
 todo:
-- freq of crops per state
 - freq of crops per month
 - analysis of crop diseases w.r.t states
 - analysis of crop diseases w.r.t months
@@ -7,7 +6,8 @@ todo:
 done:
 - converted to ~200K distinct queries from ~300K by using keywords
 - converted to ~100K distinct queries by keeping only some crops
-- tried TFIDF to extract features and k-means for clustering but both didn't gave good results so swithced to manual tasks
+- tried TFIDF to extract features and k-means for clustering but both didn't gave good results so switched to manual labelling
+- made state wise plots for paddy, cotton
 
 issues:
 

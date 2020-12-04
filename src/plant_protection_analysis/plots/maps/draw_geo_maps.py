@@ -6,8 +6,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np 
 
-def make_plot(src, dest, path):
-	with open('{}states_india.geojson'.format(path), 'r') as file:
+def make_plot(src, dest):
+	with open('../../../library/states_india.geojson', 'r') as file:
 		states_geojson = json.load(file)
 
 	geojson_state_code_map = {}

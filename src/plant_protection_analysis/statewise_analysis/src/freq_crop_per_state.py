@@ -2,8 +2,9 @@ import json
 import csv
 import sys
 
+data_dir = '../../../data/'
 def get_freq_per_state(crop):
-    with open("../../data.json", 'r') as f:
+    with open("{}data.json".format(data_dir), 'r') as f:
         dict = json.load(f)
 
         crop_freq = {}
