@@ -2,3 +2,9 @@
 data/dataset
 data/dataset.zip
 data/data.json
+
+data.json
+notes
+**/.vscode
+**/__pycache__
+**/temp
