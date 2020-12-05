@@ -31,7 +31,7 @@ for year, months in data.items():
 
 frequency_sorted_queryTypes = []
 
-with open("../library/query_type_frequency.csv", 'w', newline='') as file:
+with open("../library/overall_query_type_frequency.csv", 'w', newline='') as file:
 	writer = csv.writer(file)
 	writer.writerow(["QueryType", "Frequency"])
 	writer.writerow(["Total", total])

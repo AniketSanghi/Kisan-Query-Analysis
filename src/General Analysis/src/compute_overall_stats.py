@@ -7,6 +7,8 @@ with open('../../data/data.json') as file:
 year_month_frequency = {}
 state_frequency = {}
 district_frequency = {}
+crop_frequency = {}
+total_queries = 0
 for year, months in data.items():
 	for month, states in months.items():
 		for state, districts in states.items():
@@ -28,6 +30,14 @@ for year, months in data.items():
 					else:
 						district_frequency[district] = 1
 
+					crop = data_elem[2]
+					if crop in crop_frequency.keys():
+						crop_frequency[crop] += 1
+					else:
+						crop_frequency[crop] = 1
+
+					total_queries += 1
+
 
 with open('../library/overall_month_frequency.csv', 'w', newline='') as file:
 	writer = csv.writer(file)
@@ -46,3 +56,10 @@ with open('../library/overall_district_frequency.csv', 'w', newline='') as file:
 	writer.writerow(["District", "Frequency"])
 	for district, freq in sorted(district_frequency.items(), key=lambda x: x[1], reverse=True):
 		writer.writerow([district, freq])
+
+with open('../library/overall_crop_frequency.csv', 'w', newline='') as file:
+	writer = csv.writer(file)
+	writer.writerow(["Crop", "Frequency"])
+	writer.writerow(["Total", total_queries])
+	for crop, freq in sorted(crop_frequency.items(), key=lambda x: x[1], reverse=True):
+		writer.writerow([crop, freq])
