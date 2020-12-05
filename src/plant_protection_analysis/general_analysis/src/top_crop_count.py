@@ -32,9 +32,9 @@ with open("{}data.json".format(data_dir), 'r') as f:
     count = 0
     data = []
     for x, y in cnt:
+        count += x
         if x > 10000:
             data.append([y, x])
-            count += x
 
     data.append(['Total', count])
     header = ['Crop', 'Count']
