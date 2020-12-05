@@ -14,14 +14,14 @@
 	libraries
 		- json
 		- csv
-      - matplotlib.pyplot 
-      - sys
-      - difflib
-      - pandas
-      - plotly.express
-      - numpy
-      - psutil
-      - kaleido
+            - matplotlib.pyplot 
+            - sys
+            - difflib
+            - pandas
+            - plotly.express
+            - numpy
+            - psutil
+            - kaleido
 
 ----------------------------------------------------------------------------------------------------------
 						##### HOW TO RUN #####
