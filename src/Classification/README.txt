@@ -20,15 +20,18 @@ kcc_classification.sh
 top level script that runs all scripts required for classification
 
 1.sh
-runs 0_json_to_csv.py, 1_Data_Analysis_and_Data_Cleaning.py, 2_Embeddings_generator.py, 3_Electra_Embeddings_generator.py, 4_SE_Embeddings_generator.py sequentially
+runs 0_json_to_csv.py, 1_Data_Analysis_and_Data_Cleaning.py sequentially
 
 2.sh
-runs 7_Sector_Classification.py, 8_Sector_Classification_as_Regression.py, 9_Query_Type_Classification.py, 10_QueryType_Classification_as_Regression.py sequentially
+runs 2_Embeddings_generator.py, 3_Electra_Embeddings_generator.py, 4_SE_Embeddings_generator.py sequentially
 
 3.sh
-runs 11_Electra_Sector_Classification.py, 12_Electra_Sector_Classification_as_Regression.py, 13_Electra_Query_Type_Classification.py, 14_Electra_QueryType_Classification_as_Regression.py sequentially
+runs 7_Sector_Classification.py, 8_Sector_Classification_as_Regression.py, 9_Query_Type_Classification.py, 10_QueryType_Classification_as_Regression.py sequentially
 
 4.sh
+runs 11_Electra_Sector_Classification.py, 12_Electra_Sector_Classification_as_Regression.py, 13_Electra_Query_Type_Classification.py, 14_Electra_QueryType_Classification_as_Regression.py sequentially
+
+5.sh
 runs 15_SE_Sector_Classification.py, 16_SE_Sector_Classification_as_Regression.py, 17_SE_Query_Type_Classification.py, 18_SE_QueryType_Classification_as_Regression.py sequentially
 
 Python (.py) files:
