@@ -106,14 +106,14 @@ with open('./kcc/kcc_queries_h.txt', 'w') as f:
     for item in qlist:
         f.write("%s\n" % item)
         
-header1 = ["state","scheme_count"]
+header1 = ["Frequency","State"]
 with open('./kcc/output/state_counts.csv', 'w') as f: 
     write = csv.writer(f)  
     write.writerow(header1)
     for elem in scheme_count:
         write.writerow(elem)
 
-header2 = ["state","per_holding_scheme_count"]
+header2 = ["Frequency","State"]
 with open('./kcc/output/per_holding_state_counts.csv', 'w') as f: 
     write = csv.writer(f)  
     write.writerow(header1)
@@ -134,14 +134,14 @@ with open('./samman nidhi/samman_nidhi_h2.txt', 'w') as f:
     for item in qlist[int(len(qlist)*0.5):]:
         f.write("%s\n" % item)
 
-header1 = ["state","scheme_count"]
+header1 = ["Frequency","State"]
 with open('./samman nidhi/output/state_counts.csv', 'w') as f: 
     write = csv.writer(f)  
     write.writerow(header1)
     for elem in scheme_count:
         write.writerow(elem)
 
-header2 = ["state","per_holding_scheme_count"]
+header2 = ["Frequency","State"]
 with open('./samman nidhi/output/per_holding_state_counts.csv', 'w') as f: 
     write = csv.writer(f)  
     write.writerow(header1)
@@ -160,14 +160,14 @@ with open('./mandhan/mandhan_queries_h.txt', 'w') as f:
     for item in qlist:
         f.write("%s\n" % item)
         
-header1 = ["state","scheme_count"]
+header1 = ["Frequency","State"]
 with open('./mandhan/output/state_counts.csv', 'w') as f: 
     write = csv.writer(f)  
     write.writerow(header1)
     for elem in scheme_count:
         write.writerow(elem)
 
-header2 = ["state","per_holding_scheme_count"]
+header2 = ["Frequency","State"]
 with open('./mandhan/output/per_holding_state_counts.csv', 'w') as f: 
     write = csv.writer(f)  
     write.writerow(header1)
@@ -185,14 +185,14 @@ with open('./fasal bima/fasal_bima_queries_h.txt', 'w') as f:
     for item in qlist:
         f.write("%s\n" % item)
         
-header1 = ["state","scheme_count"]
+header1 = ["Frequency","State"]
 with open('./fasal bima/output/state_counts.csv', 'w') as f: 
     write = csv.writer(f)  
     write.writerow(header1)
     for elem in scheme_count:
         write.writerow(elem)
 
-header2 = ["state","per_holding_scheme_count"]
+header2 = ["Frequency","State"]
 with open('./fasal bima/output/per_holding_state_counts.csv', 'w') as f: 
     write = csv.writer(f)  
     write.writerow(header1)

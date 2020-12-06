@@ -50,6 +50,7 @@ government scheme analysis
 run the file distinct_query_n_format_changing.py
 command: 'python3 distinct_query_n_format_changing.py'
 
+** this part will take 5-10 mins to run
 **changes occur in the ./preprocessing directory
 
 This just created some modeifed version of files of the data.json and the queries of the type 'Government Schmes'
@@ -276,6 +277,9 @@ command : "python3 tagging.py"
 This basically then gives us all the outputs lets me explain the outputs:
 1. each of the scheme folder 'fasal bima','mandhan','kcc','samman nidhi' has a folder named 'output'.
 2. In each out put folder the following files are there
-	a. state_count.csv: this the number of time a query for the scheme is asked in the given state
+	a. state_counts.csv: this the number of time a query for the scheme is asked in the given state
 	b. per_holding_state_count.csv: this the (number of time a query for the scheme is asked in the given state)/(number of land holdings in the state)
-	c. state_wise_problem.csv : for the given scheme how many queries for a given scheme are related to registration,finance,contact,web-site,not tagged etc is given(note the total may not be the same as the number of queries of the scheme as for eg there may be a query that is both registration and finance related).
+	c. state_wise_problems.csv : for the given scheme how many queries for a given scheme are related to registration,finance,contact,web-site,not tagged etc is given(note the total may not be the same as the number of queries of the scheme as for eg there may be a query that is both registration and finance related).
+
+
+For visualizing the 'state_counts.csv', and the 'per_holding_state_counts.csv' you can look at the plotting.ipynb just change the paths where commented and keep the headers of the input files as 'State' and 'Frequency' 
