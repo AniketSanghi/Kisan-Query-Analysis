@@ -1,0 +1,66 @@
+
+The output files are present in 'output' folder present in each scheme's folder each contains following files:
+	1. state_counts.csv: this contains the number of time query of the scheme is asked in the state for a given scheme
+	2. per_holding_state_counts.csv: this contains the (number of time query of the scheme is asked in the state)/(# land holdings in the state) for a given scheme.
+	3. 'state_wise_problems.csv': this contains the number of queries of given type (like registration,contact info) were asked for a given scheme in a given state 
+
+###############################################################################################################
+
+NOTE: There are some files that are already there in the following directories these were obtained by translatating the files that are generated while running the program. To generate the files that are present in the directories before running follow the given steps:
+
+
+*****Genrating 'ohindi.txt' file present in ./hindi_translations
+
+1. first of all run directories.sh after given appropriate permission to it.
+2. Now run the python file "distinct_query_n_format_changing.py", the command for it is:
+	python3 distinct_query_n_format_changing.py
+3. In the folder ./preprocessing/batches there will be 24 files translate them from "https://www.onlinedoctranslator.com" set the target src language "English" and "Hindi" as the target language.
+4. Now concatenate the translated files in oder(the number are in the file name itself).
+5. Name the new file 'ohini.txt' and place it in ./hindi_translations
+
+Remark: the translations are done in batches because of the file size limit of the website.
+
+
+
+*****Genrating 'fasal_bima_queries_en.txt'(in ./fasal bima), 'kcc_queries_en.txt'(in ./kcc), 'mandhan_queries_en.txt'(in ./mandhan) ,'samman_nidhi_en1.txt' and 'samman_nidhi_en2.txt'(both in ./samman nidhi)
+
+1. First of all complte the above steps then run the file word_tranformation_for_scheme_extraction.py command will be:
+	python3 word_tranformation_for_scheme_extraction.py
+2. After that the you will get sources files for the translation which are as follows:
+	a. in './kcc' translate the file 'kcc_queries_h.txt' and name it 'kcc_queries_en.txt' place it in the same directory
+	   in this case src = 'Hindi' and target = 'English'
+   	b. in './fasal bima' translate the file 'fasal_bima_queries_h.txt' and name it 'fasal_bima_queries_en.txt' place it in the same directory
+	   in this case src = 'Hindi' and target = 'English'
+   	c. in './mandhan' translate the file 'mandhan_queries_h.txt' and name it 'mandhan_queries_en.txt' place it in the same directory
+	   in this case src = 'Hindi' and target = 'English'
+   	d. in './samman nidhi' translate the file 'samman_nidhi_h1.txt' and name it 'samman_nidhi_en1.txt' place it in the same directory
+   	   now do the same for 'samman_nidhi_h2.txt' name it 'samman_nidhi_en2.txt' place it in the same directory
+	   in this case src = 'Hindi' and target = 'English'
+   	
+
+You have generated all the files that were already there after this.
+
+##################################################################################################################
+
+Brief info about what all the executing files do:
+
+- distinct_query_n_format_changing.py:
+	1. input for it is original 'data.json'
+	2. ouput files are: './preprocessing/all_govt_query' : all queries have query type 'Government Scheme'
+	                    './preprocessing/distinct_govt_query': distinct entries in all_govt_query
+	                    './preprocessing/yr_st_gov_sch.json' : same format as data.json but queries are of only of type 'Government Scheme'
+	                    ./preprocessing/batches folder's files there shall be used for translation
+
+- word_tranformation_for_scheme_extraction.py
+	1. input for this is './hindi_tranlations/ohindi.txt'
+	2. output file will be './hindi_tranlations/nhindi.txt', some words transformation are performed in this files 
+
+- get_schemes_queries.py
+	1. input for this is './hindi_tranlations/nhindi.txt'
+	2. output are the scheme specific files that are in the schemes' folder, these shall be translated as mentioned above if you decide to generate you own translations as mentioned above the files will have the format 'scheme name_h.txt' and translate them to english and name them 'scheme name_en.txt' and place them in the same folder
+	3. Other output files are in the 'output' folder present in each scheme's folder the files are :
+		a. state_counts.csv: this contains the number of time query of the scheme is asked in the state
+		b. per_holding_state_counts.csv: this contains the (number of time query of the scheme is asked in the state)/(# land holdings in the state).
+
+- tagging.py
+	1. This executing file uses the 'scheme name_en.txt' files in the scheme's folder and by tagging the queries generats new files in 'output' folder present in each scheme's folder named 'state_wise_problems.csv' this contains the number of queries of given type (like registration,contact info) were asked for a given scheme in a given state.
