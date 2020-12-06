@@ -1,0 +1,32 @@
+Programming Language Required:
+Python 2.7.12
+Python 3.5.2
+
+
+Packages Required:
+json
+matplotlib
+numpy
+csv
+pandas
+plotly
+difflib
+sys
+
+Directory Structure:
+Contains 4 files
+
+
+How to Execute:
+chmod 700 run.sh
+./run.sh
+
+
+Output Files:
+monthcount.png -> total queries per month
+state.csv -> total queries per state
+state.png -> total queries per state
+octoberstate.csv -> total queries per state in october
+octoberstate.png -> total queries per state in october
+maystate.csv -> total queries per state in may
+maystate.png -> total queries per state in may
