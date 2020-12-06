@@ -1,5 +1,10 @@
 #! /bin/bash
 
+mkdir -p data/data_1
+mkdir -p data/data_2
+mkdir -p data/data_3
+mkdir -p data/data_4
+
 python3 scraping.py 1 0 3653 &
 python3 scraping.py 2 3653 7306 &
 python3 scraping.py 3 7306 10959 &

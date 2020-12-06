@@ -49,7 +49,7 @@ bash clean.sh
 ```
 This bash script calls all the top level cleanup scripts to remove every output file like .csv and .png from each of these 4 directories.
 
-## Description:
+## Description
 - Avg. time taken to run: 5 mins 21 seconds on a 2.30GHz, 64-bit, 8GB RAM machine.
 - general_analysis:
   - top_crop_count.py: finds queries of major crops related to plant protection
