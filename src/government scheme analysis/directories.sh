@@ -1,3 +1,7 @@
+if [ ! -d ./preprocessing ]; then
+  mkdir -p ./preprocessing;
+fi
+
 if [ ! -d ./fasal\ bima/output ]; then
   mkdir -p ./fasal\ bima/output;
 fi
