@@ -64,7 +64,7 @@ for i in range(0,24):
 	    for item in n_lines:
 	        f.write("%s\n" % item)
 
-n_lines = Lines[int(12.0*10000):-1]
+n_lines = Lines[int(12.0*10000):]
 with open('./preprocessing/batches/temp_translation24.txt', 'w') as f:
     for item in n_lines:
         f.write("%s\n" % item)
