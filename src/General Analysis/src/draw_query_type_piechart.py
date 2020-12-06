@@ -49,7 +49,7 @@ plt.legend(
     prop={'size': 11},
     bbox_to_anchor=(0.0, 1),
     bbox_transform=fig1.transFigure,
-    title="Percentage of Crop"
+    title="Percentage of different types of queries"
 )
   
 dest = "../images/overall_query_types_frequency.png"

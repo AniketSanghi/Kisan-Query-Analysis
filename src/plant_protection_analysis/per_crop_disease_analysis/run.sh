@@ -1,5 +1,7 @@
 #! /bin/bash
 
+mkdir -p data plots
+
 cd src
 python3 relevant_words.py
 python3 paddy.py
