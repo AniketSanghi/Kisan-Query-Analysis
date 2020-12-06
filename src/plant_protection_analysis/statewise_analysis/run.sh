@@ -1,5 +1,7 @@
 #! /bin/bash
 
+mkdir -p data plots
+
 cd src
 python3 freq_crop_per_state.py "Paddy (Dhan)" paddy_data
 python3 freq_crop_per_state.py "Cotton (Kapas)" cotton_data
