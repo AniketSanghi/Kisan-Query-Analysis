@@ -61,7 +61,7 @@ plot_confusion_matrix(dtree_model, X_test, y_test, normalize='true', display_lab
 plt.tight_layout()
 plt.title('Sector Classification using Decision Tree')
 plt.savefig('Sector Classification using Decision Tree.jpg')
-plt.show()
+
 
 
 # In[6]:
@@ -79,7 +79,7 @@ plot_confusion_matrix(rf_model, X_test, y_test, normalize='true',display_labels=
 plt.tight_layout()
 plt.title('Sector Classification using Random Forest')
 plt.savefig('Sector Classification using Random Forest.jpg')
-plt.show()
+
 
 
 # In[7]:
@@ -101,7 +101,7 @@ plot_confusion_matrix(svm_model_linear, X_test, y_test, normalize='true',display
 plt.tight_layout()
 plt.title('Sector Classification using linear SVM')
 plt.savefig('Sector Classification using linear SVM.jpg')
-plt.show()
+
 
 
 # In[8]:
@@ -124,7 +124,7 @@ plot_confusion_matrix(knn, X_test, y_test, normalize='true',display_labels=['AGR
 plt.tight_layout()
 plt.title('Sector Classification using KNN classifier')
 plt.savefig('Sector Classification using KNN classifier.jpg')
-plt.show()
+
 
 
 # In[9]:
@@ -147,7 +147,7 @@ plot_confusion_matrix(gnb, X_test, y_test, normalize='true', display_labels=['AG
 plt.tight_layout()
 plt.title('Sector Classification using Naive Bayes classifier')
 plt.savefig('Sector Classification using Naive Bayes classifier.jpg')
-plt.show()
+
 
 
 # In[10]:
@@ -166,7 +166,7 @@ plot_confusion_matrix(clf, X_test, y_test, normalize='true', display_labels=['AG
 plt.tight_layout()
 plt.title('Sector Classification using Logistic Regression')
 plt.savefig('Sector Classification using Logistic Regression.jpg')
-plt.show()
+
 
 
 # In[ ]:

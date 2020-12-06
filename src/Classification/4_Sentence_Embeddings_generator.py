@@ -32,8 +32,13 @@ corpus_embeddings = model.encode(corpus_sentences, show_progress_bar=True, conve
 for i in range(len(df)):
     Embed[df['ID'][i]]=corpus_embeddings[i].tolist()
 
+Embed2 = {}
+for key in Embed.keys():
+    Embed2[int(key)]=Embed[key]
+
+
 with open("SE_querytype_dataset_sentence_embeddings.json", "w") as outfile:  
-    json.dump(Embed, outfile, indent = 4) 
+    json.dump(Embed2, outfile, indent = 4) 
 
 
 # In[15]:
@@ -63,8 +68,13 @@ corpus_embeddings = model.encode(corpus_sentences, show_progress_bar=True, conve
 for i in range(len(df)):
     Embed[df['ID'][i]]=corpus_embeddings[i].tolist()
 
+Embed2 = {}
+for key in Embed.keys():
+    Embed2[int(key)]=Embed[key]
+
+
 with open("SE_sector_dataset_sentence_embeddings.json", "w") as outfile:  
-    json.dump(Embed, outfile, indent = 4) 
+    json.dump(Embed2, outfile, indent = 4) 
 
 
 # In[ ]:

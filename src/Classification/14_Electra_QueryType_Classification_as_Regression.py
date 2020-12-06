@@ -134,7 +134,7 @@ for i in range(len(vegetables)):
 
 ax.set_title("Electra Query Type Regression using Classification as Regression technique")
 plt.savefig("Electra Query Type Regression using Classification as Regression technique.jpg")
-plt.show()
+
 
 
 # In[ ]:

@@ -140,7 +140,7 @@ for i in range(len(vegetables)):
 
 ax.set_title("Query Type Regression using Classification as Regression technique")
 plt.savefig("Query Type Regression using Classification as Regression technique.jpg")
-plt.show()
+
 
 
 # In[ ]:

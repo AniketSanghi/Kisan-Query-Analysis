@@ -68,8 +68,8 @@ print(classification_report(y_test, dtree_predictions, target_names = targets))
 plot_confusion_matrix(dtree_model, X_test, y_test, normalize='true', display_labels=targets, xticks_rotation = 45)
 plt.title('SE Query Type Classification using Decision Tree')
 plt.savefig('SE Query Type Classification using Decision Tree.jpg')
-plt.show()
-plt.show()
+
+
 
 
 # In[6]:
@@ -87,7 +87,7 @@ plot_confusion_matrix(rf_model, X_test, y_test, normalize='true',display_labels=
 plt.title('SE Query Type Classification using Random Forest')
 plt.savefig('SE Query Type Classification using Random Forest.jpg')
 
-plt.show()
+
 
 
 # In[7]:
@@ -109,7 +109,7 @@ plot_confusion_matrix(svm_model_linear, X_test, y_test, normalize='true',display
 plt.title('SE Query Type Classification using linear SVM')
 plt.savefig('SE Query Type Classification using linear SVM.jpg')
 
-plt.show()
+
 
 
 # In[8]:
@@ -132,7 +132,7 @@ plot_confusion_matrix(knn, X_test, y_test, normalize='true',display_labels=targe
 plt.title('SE Query Type Classification using KNN classifier')
 plt.savefig('SE Query Type Classification using KNN classifier.jpg')
 
-plt.show()
+
 
 
 # In[9]:
@@ -154,7 +154,7 @@ print(classification_report(y_test, gnb_predictions, target_names = targets))
 plot_confusion_matrix(gnb, X_test, y_test, normalize='true', display_labels=targets, xticks_rotation = 45)
 plt.title('SE Query Type Classification using Naive Bayes classifier')
 plt.savefig('SE Query Type Classification using Naive Bayes classifier.jpg')
-plt.show()
+
 
 
 # In[10]:
@@ -172,7 +172,7 @@ print(classification_report(y_test, lr_predictions, target_names = targets))
 plot_confusion_matrix(clf, X_test, y_test, normalize='true', display_labels=targets, xticks_rotation = 45) 
 plt.title('SE Query Type Classification using Logistic Regression')
 plt.savefig('SE Query Type Classification using Logistic Regression.jpg')
-plt.show()
+
 
 
 # In[ ]:

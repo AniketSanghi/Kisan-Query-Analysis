@@ -140,7 +140,6 @@ for i in range(len(vegetables)):
 ax.set_title("Sector Regression using Classification as Regression technique")
 fig.tight_layout()
 plt.savefig("Sector Regression using Classification as Regression technique.jpg")
-plt.show()
 
 
 # In[ ]:
