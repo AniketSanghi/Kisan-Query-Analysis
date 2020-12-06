@@ -1,4 +1,5 @@
 #!/bin/sh
+
 python3 15_SE_Sector_Classification.py
 python3 16_SE_Sector_Classification_as_Regression.py
 python3 17_SE_Query_Type_Classification.py
