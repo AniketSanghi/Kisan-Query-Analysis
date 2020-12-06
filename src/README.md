@@ -22,12 +22,15 @@
 
 ## How to execute the project
 - To scrape the data either do:
-  1. ```
-     cd scraping
-     chmod 700 *.sh
-     bash scraping.sh
-     ```
-     But this can take around 24hrs depending on your internet connection.
+  1.
+    - `cd scraping`
+    - Download latest mozilla geckodriver from [here](https://github.com/mozilla/geckodriver/releases)
+    - Place the downloaded driver inside `drivers` directory with name: `geckodriver`. So, final structure should be `drivers/geckodriver`.
+    - ```
+      chmod 700 *.sh
+      bash scraping.sh
+      ```
+      But this can take more than 24hrs depending on your internet connection.
 
      OR
 
