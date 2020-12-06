@@ -12,11 +12,11 @@
 - `preprocessing` contains codes to convert the csv files to construct a single json file after relevant preprocessing
 - `data` contains all the csv files and preprocessed json file
 - `library` contains json file storing coordinates of states to plot data on states of India
-- All the analysis are independent from each other and the codes which are contained in their respective directories:
+- All the analysis are independent from each other and the codes are contained in their respective directories:
   - [Classfication](Classification)
   - [FAQ](FAQ)
-  - [General Analysis](General Analysis)
-  - [government\ scheme\ analysis](government scheme analysis)
+  - [General Analysis](<General Analysis>)
+  - [government scheme analysis](<government scheme analysis>)
   - [plant_protection_analysis](plant_protection_analysis)
   - [weather](weather)
 
@@ -40,6 +40,7 @@
 - To preprocess the data either do:
   1. ```
      cd preprocessing
+     chmod 700 *.sh
      bash preprocess.sh
      ```
      This can take around 10 minutes depending on your system architecture.
@@ -52,4 +53,10 @@
     - Extract the zip inside `data/`
     - Finally `data.json` should be present inside `data/` directory.
 
-- To do the complete analysis refer to READMEs of the corresponding analysis directories.
+- To do the complete analysis refer to READMEs of the corresponding analysis directories:
+  - [Classfication](Classification)
+  - [FAQ](FAQ)
+  - [General Analysis](<General Analysis>)
+  - [government scheme analysis](<government scheme analysis>)
+  - [plant_protection_analysis](plant_protection_analysis)
+  - [weather](weather)
