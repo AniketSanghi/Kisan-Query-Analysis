@@ -32,7 +32,7 @@
      OR
 
   2.
-    - Download the zip of the dataset from [here](https://drive.google.com/file/d/1KCynUm5sG9muGJ3RXpziZgCgkpqjpWas/view?usp=sharing)
+    - We have uploaded the scraped data to google drive, so you can download the zip of the dataset from [here](https://drive.google.com/file/d/1KCynUm5sG9muGJ3RXpziZgCgkpqjpWas/view?usp=sharing)
     - `mkdir -p data`
     - Extract the zip inside `data/`
     - Finally `data/dataset/` should contains just all the csv files.
@@ -48,12 +48,12 @@
      OR
 
   2.
-    - Download the preprocessed zip from [here](https://drive.google.com/file/d/1aCLOxUS2FRKzrbmMjrSeOsgrnJ1AAQH9/view?usp=sharing)
+    - We have uploaded the preprocessed data to google drive, so you can download the preprocessed zip from [here](https://drive.google.com/file/d/1aCLOxUS2FRKzrbmMjrSeOsgrnJ1AAQH9/view?usp=sharing)
     - `mkdir -p data`
     - Extract the zip inside `data/`
     - Finally `data.json` should be present inside `data/` directory.
 
-- To do the complete analysis refer to READMEs of the corresponding analysis directories:
+- After scraping and preprocessing, to get results from each of the analysis refer to READMEs of the corresponding analysis directories:
   - [Classfication](Classification)
   - [FAQ](FAQ)
   - [General Analysis](<General Analysis>)
