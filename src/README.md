@@ -16,26 +16,24 @@
   - [Classfication](Classification)
   - [FAQ](FAQ)
   - [General Analysis](General Analysis)
-  - [government scheme analysis](government scheme analysis)
+  - [government\ scheme\ analysis](government scheme analysis)
   - [plant_protection_analysis](plant_protection_analysis)
   - [weather](weather)
 
 ## How to execute the project
 - To scrape the data either do:
-  1.```
-    cd scraping
-    chmod 700 *.sh
-    bash scraping.sh
-    ```
-    But this can take around 24hrs depending on your internet connection.
+  1. ```
+     cd scraping
+     chmod 700 *.sh
+     bash scraping.sh
+     ```
+     But this can take around 24hrs depending on your internet connection.
 
-    OR
+     OR
 
   2.
     - Download the zip of the dataset from [here](https://drive.google.com/file/d/1KCynUm5sG9muGJ3RXpziZgCgkpqjpWas/view?usp=sharing)
-    - ```
-      mkdir -p data
-      ```
+    - `mkdir -p data`
     - Extract the zip inside `data/`
     - Finally `data/dataset/` should contains just all the csv files.
 
@@ -50,9 +48,7 @@
 
   2.
     - Download the preprocessed zip from [here](https://drive.google.com/file/d/1aCLOxUS2FRKzrbmMjrSeOsgrnJ1AAQH9/view?usp=sharing)
-    - ```
-      mkdir -p data
-      ```
+    - `mkdir -p data`
     - Extract the zip inside `data/`
     - Finally `data.json` should be present inside `data/` directory.
 
