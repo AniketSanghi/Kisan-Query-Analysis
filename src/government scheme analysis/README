@@ -90,6 +90,7 @@ government scheme analysis
 translated all the 24 files in './preprocessing/batches' from 'www.onlinedoctranslator.com'(src=english target=hindi) concatenated the translated files and form a new file ohindi.txt and place it in ./hindi_tranlations.
 
 alternatively you can also download ohindi.txt from 'https://drive.google.com/drive/folders/1XeHyNDEzHNTqDKcSGug6jA7LRbQkacRo?usp=sharing' this has the same directory structure, download the file from hindi_tranlations folder.
+Note: if you have not used data.json from the drive link before that you have to do the translating part the 'ohindi.txt' of the above file is incorrect then as some queries may have changed on scraping
 
 **changes occur in the ./hindi_tranlations directory
 
@@ -224,7 +225,7 @@ Now translate following files (src=Hindi target=English vice versa of previous p
     name the new files mandhan_queries_en.txt and place it in the ./mandhan directory
 
 NOTE: Alternatilvely u can also dowload them from 'https://drive.google.com/drive/folders/1XeHyNDEzHNTqDKcSGug6jA7LRbQkacRo?usp=sharing'
-
+Note: if you have not used data.json from the drive link before that you have to do the translating part the 'ohindi.txt' of the above file is incorrect then as queries may have changed on scraping
 **changes occur in the ./fasal bima;./samman nidhi;./kcc;./mandhan   directory
 
 ** DIRECTORY STRUCTURE AFTER STEP 6
