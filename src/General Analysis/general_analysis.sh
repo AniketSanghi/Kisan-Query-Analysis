@@ -1,5 +1,9 @@
 #!/bin/bash
 
+[ ! -d "library" ] && mkdir library
+[ ! -d "library/category" ] && mkdir library/category
+[ ! -d "images" ] && mkdir images
+
 cd src
 
 echo "Computing frequency for various query types..."
